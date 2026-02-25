@@ -157,5 +157,7 @@ print(f"{Berserk_Brew.name} ({0.quantity}) - attack.effect +potency")
 # Mana Surge (x5) — mana +30
 # Berserk Brew (x1) — attack +20
 
+party = [aria, Kael, Mira, Dax]
 
-
+for number, hero in enumerate(party):
+print(f"[{number}] {hero.name} - {hero.role} (Lv.level)")
